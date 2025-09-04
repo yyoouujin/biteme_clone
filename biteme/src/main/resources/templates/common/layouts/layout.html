@@ -3,24 +3,59 @@
 
 <head>
 	<meta charset="UTF-8">
-	<th:block th:replace="~{common/configs/config :: ConfigFrag}"></th:block>
+	<th:block th:replace="~{common/configs/config :: CSSConfigFrag}"></th:block>
 	<title>Insert title here</title>
 </head>
 
 <body id="page-top">
-	<div id="wrapper">
-	
-		<aside th:replace="~{common/fragments/sidebar :: SidebarFrag}"></aside>
-		<header th:replace="~{common/fragments/header :: HeaderFrag}"></header>
-		
-		<main>
-		<th:block layout:fragment="Content"></th:block>
-		</main>
-		
-		<footer>
-			<footer th:replace="~{common/fragments/footer :: FooterFrag}"></footer>
-		</footer>
-	</div>
 
+	<!-- Page Wrapper -->
+	<div id="wrapper">
+		
+		<!-- Sidebar -->
+		<div th:replace="~{common/fragments/sidebar :: SidebarFrag}"></div>
+		<!-- End of Sidebar -->
+		
+		<!-- Content Wrapper -->
+		<div id="content-wrapper" class="d-flex flex-column">
+			
+			<!-- Main Content -->
+			<div id="content">
+				
+				<!-- Topbar -->
+					<div th:replace="~{common/fragments/header :: HeaderFrag}"></div>
+				<!-- End of Topbar -->
+				
+				<!-- Begin Page Content -->
+					<div class="container-fluid">
+						<th:block layout:fragment="Content"></th:block>
+					</div>
+				<!-- /.container-fluid -->
+				
+				
+			</div>
+			<!-- End of Main Content -->
+			
+			<!-- Footer -->
+			<footer>
+				<div th:replace="~{common/fragments/footer :: FooterFrag}"></div>
+			</footer>
+			<!-- End of Footer -->
+			
+		</div>
+		<!-- End of Content Wrapper -->
+
+	</div>
+	<!-- End of Page Wrapper -->
+	
 </body>
+
+
+<th:block th:replace="~{common/configs/config :: JSConfigFrag}"></th:block>
+
 </html>
+
+
+
+
+
