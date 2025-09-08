@@ -558,7 +558,6 @@ pre code {
   margin-left: auto;
 }
 
-
 @media (min-width: 576px) {
   .container, .container-sm {
     max-width: 540px;
@@ -571,7 +570,6 @@ pre code {
   }
 }
 
-/*
 @media (min-width: 992px) {
   .container, .container-sm, .container-md, .container-lg {
     max-width: 960px;
@@ -583,8 +581,6 @@ pre code {
     max-width: 1140px;
   }
 }
-*/
-
 
 .row {
   display: flex;
@@ -1153,7 +1149,7 @@ pre code {
     margin-left: 91.66667%;
   }
 }
-/*
+
 @media (min-width: 992px) {
   .col-lg {
     flex-basis: 0;
@@ -1319,8 +1315,7 @@ pre code {
     margin-left: 91.66667%;
   }
 }
-*/
-/*
+
 @media (min-width: 1200px) {
   .col-xl {
     flex-basis: 0;
@@ -1486,7 +1481,7 @@ pre code {
     margin-left: 91.66667%;
   }
 }
-*/
+
 .table {
   width: 100%;
   margin-bottom: 1rem;
@@ -1795,7 +1790,6 @@ pre code {
   }
 }
 
-/*
 @media (max-width: 991.98px) {
   .table-responsive-lg {
     display: block;
@@ -1819,7 +1813,6 @@ pre code {
     border: 0;
   }
 }
-  */
 
 .table-responsive {
   display: block;
@@ -3072,7 +3065,6 @@ input[type="button"].btn-block {
   }
 }
 
-/*
 @media (min-width: 992px) {
   .dropdown-menu-lg-left {
     right: auto;
@@ -3094,7 +3086,6 @@ input[type="button"].btn-block {
     left: auto;
   }
 }
-*/
 
 .dropup .dropdown-menu {
   top: auto;
@@ -4276,7 +4267,6 @@ input[type="button"].btn-block {
   }
 }
 
-/*
 @media (max-width: 991.98px) {
   .navbar-expand-lg > .container,
   .navbar-expand-lg > .container-fluid, .navbar-expand-lg > .container-sm, .navbar-expand-lg > .container-md, .navbar-expand-lg > .container-lg, .navbar-expand-lg > .container-xl {
@@ -4354,7 +4344,6 @@ input[type="button"].btn-block {
     display: none;
   }
 }
-*/
 
 .navbar-expand {
   flex-flow: row nowrap;
@@ -5384,7 +5373,6 @@ a.badge-dark:focus, a.badge-dark.focus {
   }
 }
 
-/*
 @media (min-width: 992px) {
   .list-group-horizontal-lg {
     flex-direction: row;
@@ -5434,7 +5422,6 @@ a.badge-dark:focus, a.badge-dark.focus {
     border-left-width: 1px;
   }
 }
-*/
 
 .list-group-flush {
   border-radius: 0;
@@ -5850,7 +5837,6 @@ a.close.disabled {
   }
 }
 
-/*
 @media (min-width: 992px) {
   .modal-lg,
   .modal-xl {
@@ -5863,8 +5849,6 @@ a.close.disabled {
     max-width: 1140px;
   }
 }
-*/
-
 
 .tooltip {
   position: absolute;
@@ -6736,7 +6720,6 @@ button.bg-dark:focus {
   }
 }
 
-/*
 @media (min-width: 992px) {
   .d-lg-none {
     display: none !important;
@@ -6796,7 +6779,6 @@ button.bg-dark:focus {
     display: inline-flex !important;
   }
 }
-*/
 
 @media print {
   .d-print-none {
@@ -7217,7 +7199,6 @@ button.bg-dark:focus {
   }
 }
 
-/*
 @media (min-width: 992px) {
   .flex-lg-row {
     flex-direction: row !important;
@@ -7322,9 +7303,7 @@ button.bg-dark:focus {
     align-self: stretch !important;
   }
 }
-*/
 
-/*
 @media (min-width: 1200px) {
   .flex-xl-row {
     flex-direction: row !important;
@@ -7429,7 +7408,6 @@ button.bg-dark:focus {
     align-self: stretch !important;
   }
 }
-*/
 
 .float-left {
   float: left !important;
@@ -7467,7 +7445,6 @@ button.bg-dark:focus {
   }
 }
 
-/*
 @media (min-width: 992px) {
   .float-lg-left {
     float: left !important;
@@ -7479,9 +7456,7 @@ button.bg-dark:focus {
     float: none !important;
   }
 }
-*/
 
-/*
 @media (min-width: 1200px) {
   .float-xl-left {
     float: left !important;
@@ -7493,7 +7468,6 @@ button.bg-dark:focus {
     float: none !important;
   }
 }
-*/
 
 .user-select-all {
   -webkit-user-select: all !important;
@@ -8793,7 +8767,6 @@ button.bg-dark:focus {
   }
 }
 
-/*
 @media (min-width: 992px) {
   .m-lg-0 {
     margin: 0 !important;
@@ -9138,10 +9111,7 @@ button.bg-dark:focus {
     margin-left: auto !important;
   }
 }
-*/
 
-
-/*
 @media (min-width: 1200px) {
   .m-xl-0 {
     margin: 0 !important;
@@ -9486,7 +9456,6 @@ button.bg-dark:focus {
     margin-left: auto !important;
   }
 }
-*/
 
 .stretched-link::after {
   position: absolute;
@@ -9558,7 +9527,6 @@ button.bg-dark:focus {
   }
 }
 
-/*
 @media (min-width: 992px) {
   .text-lg-left {
     text-align: left !important;
@@ -9582,8 +9550,6 @@ button.bg-dark:focus {
     text-align: center !important;
   }
 }
-  */
-  
 
 .text-lowercase {
   text-transform: lowercase !important;

@@ -1,0 +1,128 @@
+/* 모바일 뷰 고정: 콘텐츠가 100% 너비를 차지하도록 강제합니다. */
+.container,
+.container-fluid,
+.container-sm,
+.container-md,
+.container-lg,
+.container-xl {
+  width: 100% !important;
+  max-width: 100% !important;
+  padding: 0.75rem !important;
+}
+
+
+.row {
+  display: block !important;
+}
+
+.row > div[class*="col-"] {
+  display: block !important;
+  width: 100% !important;
+  max-width: 100% !important;
+  flex: none !important;
+}
+
+.d-none.d-md-block,
+.d-none.d-sm-block,
+.d-none.d-lg-block,
+.d-none.d-xl-block {
+    display: none !important;
+}
+
+/* 모든 화면에서 사이드바를 기본적으로 숨깁니다. */
+body.sidebar-toggled #accordionSidebar {
+  display: none !important;
+}
+
+/* 사이드바 토글 버튼 (데스크톱용)을 숨깁니다. */
+.text-center.d-none.d-md-inline {
+  display: none !important;
+}
+
+/* 메인 콘텐츠 영역이 전체 너비를 차지하도록 강제합니다. */
+#content-wrapper {
+  display: block !important;
+  width: 100% !important;
+}
+
+/* 탑바 토글 버튼 (모바일용)을 항상 보이게 합니다. */
+#sidebarToggleTop {
+  display: inline-block !important;
+}
+
+/* 모든 화면에서 .d-md-block 등의 반응형 클래스를 숨깁니다. */
+.d-none.d-md-block,
+.d-sm-inline-block,
+.d-lg-inline,
+.d-lg-flex {
+    display: none !important;
+}
+
+/* 모든 컨테이너와 열(columns)을 세로로 정렬되도록 강제합니다. */
+.container-fluid,
+.container,
+.row {
+  display: block !important;
+  width: 100% !important;
+  max-width: 100% !important;
+  padding: 0;
+}
+
+div[class*="col-"] {
+  display: block !important;
+  flex: none !important;
+  width: 100% !important;
+  max-width: 100% !important;
+}
+
+
+/* 메인 컨텐츠 영역이 전체 너비를 차지하도록 합니다. */
+#content-wrapper {
+  display: block !important;
+  width: 100% !important;
+}
+
+/* 모든 열(columns)을 세로로 정렬되도록 강제합니다. */
+.row {
+  display: block !important;
+}
+
+.row > div[class*="col-"] {
+  display: block !important;
+  width: 100% !important;
+  max-width: 100% !important;
+  flex: none !important;
+}
+
+/* 모바일 뷰에서 숨겨야 할 요소를 확실하게 숨깁니다. */
+.d-sm-inline-block,
+.d-lg-inline,
+.d-lg-flex {
+    display: none !important;
+}
+
+/* 데스크톱 환경 (768px 이상) 에서만 작동하는 규칙 */
+@media (min-width: 768px) {
+  /* 메인 콘텐츠에 여백을 추가하고, 중앙으로 정렬합니다. */
+  .container-fluid {
+    width: 100% !important;
+    max-width: 1280px !important; /* 바이트미 사이트의 여백과 유사한 값 */
+    padding-right: 0 !important;
+    padding-left: 0 !important;
+    margin: 0 auto !important;
+  }
+}
+
+@media screen and (min-width: 768px) {
+    .pc-bg {
+        position: fixed;
+        z-index: -1;
+        width: 100%;
+        height: 100%;
+        background: #f6f6f6 url(../img/배경.jpg) no-repeat 45% 50%;
+        background-size: 1800px;
+    }
+}
+
+
+

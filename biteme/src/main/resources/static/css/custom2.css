@@ -1,0 +1,38 @@
+/* 사이드바가 기본적으로 숨겨진 상태를 만듭니다. */
+body.sidebar-toggled #accordionSidebar {
+  display: none !important;
+}
+
+/* 데스크톱 환경 (992px 이상) 에서만 작동하는 규칙 */
+@media (min-width: 992px) {
+    /* 전체 콘텐츠를 가로로 배치합니다. */
+    #wrapper {
+        display: flex;
+    }
+
+    /* 좌측 여백을 만듭니다. (바잇미 사이트의 여백과 유사하게 25% 비율로 설정) */
+    #left-sidebar {
+        flex: 0 0 25%;
+    }
+
+    /* 우측 콘텐츠 영역을 나머지 공간으로 설정합니다. */
+    #right-content {
+        flex: 0 0 75%;
+        max-width: 75%;
+    }
+}
+
+/* 모바일 뷰 고정: 콘텐츠가 100% 너비를 차지하도록 강제합니다. */
+@media (max-width: 991px) {
+  .container,
+  .container-fluid,
+  .container-sm,
+  .container-md,
+  .container-lg,
+  .container-xl {
+    width: 100% !important;
+    max-width: 100% !important;
+    padding: 0.75rem !important;
+    margin: 0 !important;
+  }
+}
