@@ -101,16 +101,17 @@ div[class*="col-"] {
     display: none !important;
 }
 
-/* 데스크톱 환경 (768px 이상) 에서만 작동하는 규칙 */
+
+
+
 @media (min-width: 768px) {
-  /* 메인 콘텐츠에 여백을 추가하고, 중앙으로 정렬합니다. */
-  .container-fluid {
-    width: 100% !important;
-    max-width: 1280px !important; /* 바이트미 사이트의 여백과 유사한 값 */
-    padding-right: 0 !important;
-    padding-left: 0 !important;
-    margin: 0 auto !important;
-  }
+	/* 메인 콘텐츠에 여백을 추가하고 중앙으로 정렬한다 */
+	#content-wrapper {
+		max-width: 520px;
+        margin-left: auto;
+        padding-left: 0px;
+        padding-right: 0px;
+	}
 }
 
 @media screen and (min-width: 768px) {
